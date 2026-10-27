@@ -1,0 +1,18 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Maven (Backend)
+backend/target/
+!backend/.mvn/wrapper/maven-wrapper.jar
+backend/log/
+*.class
+
+# Frontend
+frontend/node_modules/
+.env
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+### Buscar Alertas de Estoque Baixo
+GET http://localhost:8080/api/operacoes/estoque-baixo
+Accept: application/json
+
+###
+
+### Listar Pedidos Pendentes
+GET http://localhost:8080/api/operacoes/pedidos-pendentes
+Accept: application/json
+
+###
+
+### Aprovar um Pedido Específico (Substitua o {id} pelo número do pedido)
+POST http://localhost:8080/api/operacoes/pedidos/1/aprovar
+
+###
+
+### Rejeitar um Pedido Específico (Substitua o {id} pelo número do pedido)
+POST http://localhost:8080/api/operacoes/pedidos/1/rejeitar
