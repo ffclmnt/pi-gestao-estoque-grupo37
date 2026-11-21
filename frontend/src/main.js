@@ -1,5 +1,6 @@
 
 import './style.css'
+import './mobile.css'
 
 document.querySelector('#app').innerHTML = `
   <header>
@@ -208,3 +209,7 @@ if (produtos.length === 0) {
 }
 
 carregarEstoqueBaixo()
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('/sw.js'))
+}
