@@ -7,6 +7,7 @@ Plataforma web para pequenas e médias distribuidoras B2B que unifica vendas e l
 ## Equipe
 
 - Fernanda Amaral Noia
+- Fernanda Faedo Calamante
 - Frank Holbach Duarte
 - Thais Gabriel Almeida Gai
 
